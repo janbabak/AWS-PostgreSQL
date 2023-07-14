@@ -2,7 +2,7 @@ spring:
   datasource:
     url: jdbc:postgresql://babak-postgres.c8dbrzwy0vzm.eu-north-1.rds.amazonaws.com:5432/postgres
     username: postgres
-    password: heslo1234
+    password: ${AWS_POSTGRES_PASSWORD_TESTING_PROJECT}
     name: postgres
     driver-class-name: org.postgresql.Driver
   jpa:
